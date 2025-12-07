@@ -25,7 +25,7 @@ function App() {
   const [submitStatus, setSubmitStatus] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
-  const API_URL = 'http://localhost:3000/api';
+  const API_URL = 'https://mail-smtp-backend.vercel.app';
 
   const handleChange = (e) => {
     const { name, value } = e.target;
